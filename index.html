@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Portfolio of Daniil Folco</title>
   </head>
   <body>
     <header>
       <a class="skip-to-main" href="#main-content">To main content</a>
-      <h1>Portfolio page of Daniil Folco</h1>
+      <h1 class="page-title">Portfolio page of Daniil Folco</h1>
       <nav>
         <a class="nav-link" href="#about">About</a>
         <a class="nav-link" href="#skillset">Skillset</a>
@@ -20,7 +20,10 @@
 
     <main id="main-content">
       <section id="about">
-        <h2>About</h2>
+        <h2 id="about" class="heading-wrapper">
+          <a class="anchor" aria-hidden="true" href="#about">#</a>
+          About
+        </h2>
         <p class="about">
           Nachdem ich viel theoretisches Wissen im Studium gesammelt habe, suche
           ich ein Ort, an dem ich an interessanten Projekten mitarbeiten und
@@ -35,8 +38,11 @@
         </p>
       </section>
 
-      <section id="skillset">
-        <h2>Skillset</h2>
+      <section>
+        <h2 id="skillset" class="heading-wrapper">
+          <a class="anchor" aria-hidden="true" href="#skillset">#</a>
+          Skillset
+        </h2>
 
         <h3>Education</h3>
         <p>Degree: Informatik Bachelor</p>
@@ -62,8 +68,11 @@
         </ul>
       </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
+      <section>
+        <h2 id="projects" class="heading-wrapper">
+          <a class="anchor" aria-hidden="true" href="#projects">#</a>
+          Projects
+        </h2>
         <article>
           <h3>Portfolio with little CSS</h3>
           <p>This is a simple portfolio page made with HTML and little CSS.</p>
@@ -100,15 +109,20 @@
         <article>
           <h3>A site with graphic examples</h3>
           <p>
-            A site with various graphics describing some of the principles and techniques used in programming and specific programming languages (e.g. JavaScript).
+            A site with various graphics describing some of the principles and
+            techniques used in programming and specific programming languages
+            (e.g. JavaScript).
           </p>
           <a class="external-nav-link" href="#">Check me out</a>
         </article>
       </section>
     </main>
 
-    <footer id="contact">
-      <h2>Contact</h2>
+    <footer>
+      <h2 id="contact" class="heading-wrapper">
+        <a class="anchor" aria-hidden="true" href="#contact">#</a>
+        Contact
+      </h2>
       <p>Email: sample@gmail.com</p>
       <p>Telefon: +123456789</p>
       <p>My Links: <a class="external-nav-link" href="#">Github</a></p>
