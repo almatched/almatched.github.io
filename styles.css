@@ -91,8 +91,8 @@ textarea:not([rows]) {
 /* custom CSS */
 
 :root {
-  --font-size-h1: 4rem;
-  --font-size-h2: 3rem;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.5rem;
   --font-size-h3: 2rem;
   --font-size-h4: 1.5rem;
   --font-size-text: 1rem;
@@ -160,7 +160,7 @@ a:hover {
 
 .nav-link {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: darkblue;
 }
 
